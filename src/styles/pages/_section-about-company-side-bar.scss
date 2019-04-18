@@ -1,0 +1,47 @@
+.about-company-sidebar {
+    // display: flex;
+    // flex-direction: column;
+    // background-color: $color-background-2;
+    // min-width: 32rem;
+    // max-height: 29rem;
+    // min-height: 29rem;
+    // flex-wrap: wrap;
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background-2;
+    min-width: 32rem;
+    max-height: 29rem;
+    min-height: 29rem;
+    flex-wrap: wrap;
+
+    @include tablet{
+        display: none;
+
+    }
+}
+
+// .city-vacancies-sidebar {
+//     display: flex;
+//     flex-direction: column;
+//     background-color: $color-background-2;
+//     min-width: 32rem;
+//     max-height: 29rem;
+//     min-height: 29rem;
+//     flex-wrap: wrap;
+// }
+
+
+.about-company-sidebar-radius {
+    border: 1px solid black;
+}
+
+.about-company-links {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    // width: 72%;
+    padding: 3rem 0 0 3rem;
+    
+}
+

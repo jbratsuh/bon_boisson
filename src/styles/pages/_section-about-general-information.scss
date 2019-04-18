@@ -1,0 +1,87 @@
+
+
+.about-general-information {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10rem;
+    max-width: 75%;
+    flex-wrap: nowrap;
+    @include desktop-notebook-plus{
+        padding: 0 0 0 5rem;
+        max-width: 68%;
+    }
+    @include desktop-little{
+        padding: 0 0 0 2rem;
+    }
+    @include desktop-block-plus{
+        // padding: 0 0 0 2rem;
+        max-width: 71%;
+    }    
+    @include desktop-block{
+        // padding: 0 0 0 2rem;
+        max-width: 64%;
+    }    
+    @include menu-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        // max-width: 650px;
+    }
+    @include middle-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        max-width: 57%;
+    }
+    @include tablet{
+        padding: 0 4.5rem 0 4.5rem;
+        max-width: 100%;
+    }
+
+    @include extra-phone{
+        padding: 0;
+    }
+}
+
+.general-information {
+    display: flex;
+    flex-direction: column;
+    // padding: 0 0 0 5%;
+    // max-width: 75%;
+    flex-wrap: wrap;
+}
+
+
+.general-information-big-letters {
+    font-family: FuturaPTBold;
+    color: $color-header-drop-active;
+    font-size: 7rem;
+    padding: 3rem 0 0 0;
+    @include menu-tablet{
+        font-size: 5.5rem;
+    }
+    @include tablet{
+        font-size: 6rem;
+    }
+    @include phone{
+        font-size: 5rem;
+    }
+    @include little-phone{
+        font-size: 4rem;
+    }
+    @include small-phone{
+        font-size: 3rem;
+    }
+}
+
+
+.general-information-p{
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    // max-width: 71%;
+    padding: 3rem 0 0 0rem;
+    line-height: 3rem;
+    @include extra-phone-big{
+        font-size: 1.6rem;
+    }
+}
+
+.padding-0 {
+    padding: 0;
+}

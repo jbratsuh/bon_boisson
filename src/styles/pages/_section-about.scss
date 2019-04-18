@@ -1,0 +1,71 @@
+
+
+.about-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.about-title {
+    // font-family: FuturaPTDemi;
+    // font-size: 6rem;
+    // color: $color-header-blue-2;   
+    // padding: 6rem 0 6rem 20rem;
+    font-family: FuturaPTDemi;
+    font-size: 6rem;
+    color: $color-header-blue-2;   
+    padding: 6rem 0 6rem 15rem;
+    @include desktop-plus{
+        padding: 6rem 0 6rem 10rem;
+    }
+    @include desktop-notebook{
+        padding: 6rem 0 6rem 5rem;
+    }
+    @include desktop-little{
+        padding: 6rem 0 6rem 2rem;
+    }
+
+    @include tablet{
+        padding: 4.5rem 0 4.5rem 4.5rem;
+        font-size: 5rem;
+    }
+    
+    @include extra-phone{
+        padding: 1.5rem 0 1.5rem 0;
+        font-size: 3rem;
+    }
+}
+
+.about-split {
+    // display: flex;
+    // flex-direction: row; 
+    // padding: 0 0 0 20rem;
+    // flex-wrap: wrap;
+
+
+    display: flex;
+    flex-direction: row; 
+    padding: 0 10rem 0 15rem;
+    flex-wrap: nowrap;
+    @include desktop-plus{
+        padding: 0 10rem 0 10rem;
+    }
+    @include desktop-notebook{
+        padding: 0 5rem 0 5rem;
+    }
+    @include desktop-little{
+        padding: 0 2rem 0 2rem;
+    }
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    @include little-phone{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0;
+    }
+}

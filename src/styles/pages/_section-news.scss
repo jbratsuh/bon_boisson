@@ -1,0 +1,283 @@
+
+.news-main-block {
+    // display: flex;
+    // flex-direction: column;
+    // padding: 0 0 5rem 10rem;
+    // max-width: 138rem;
+    // flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10rem;
+    max-width: 138rem;
+    flex-wrap: wrap;
+    @include desktop-notebook-plus{
+        padding: 0 0 0 5rem;
+        max-width: 68%;
+    }
+    @include desktop-little{
+        padding: 0 0 0 2rem;
+    }
+    @include desktop-block-plus{
+        // padding: 0 0 0 2rem;
+        max-width: 71%;
+    }    
+    @include desktop-block{
+        // padding: 0 0 0 2rem;
+        max-width: 67%;
+    }    
+    @include menu-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        // max-width: 650px;
+    }
+    @include middle-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        max-width: 66%;
+    }
+    @include tablet{
+        padding: 0 4.5rem 0 4.5rem;
+        max-width: 100%;
+    }
+
+    @include little-phone{
+        padding: 0 4.5rem 0 4.5rem;
+        max-width: 480px;
+    }
+
+    @include extra-phone{
+        padding: 0;
+    }
+}
+
+.news-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 5rem;
+    @include little-phone{
+        // // padding: 0 4.5rem 0 4.5rem;
+        // max-width: 480px;
+        flex-direction: column;
+    }
+
+    
+}
+
+.news-main {
+    padding-left: 5rem;
+    max-width: 650px;
+    @include desktop-laptop-plus{
+        padding-left: 30px;
+    }
+    @include little-phone{
+        padding-left: 0;
+    }
+}
+
+.news-date {
+    font-size: 1.6rem;
+    font-family: FuturaPTBook;
+    color: rgba(0, 0, 0, 0.600);
+    // text-shadow: 0px 3px 10px;
+    // padding: 7% 0 0 13%;
+    @include extra-phone{
+        font-size: 1.4rem;
+    }
+}
+
+.news-title {
+    font-size: 3rem;
+    font-family: FuturaPTDemi;
+    color: $color-header-blue-1;
+    line-height: 4rem;
+    padding: 1rem 0;
+    @include tablet{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    @include extra-phone{
+        font-size: 2rem;
+    }
+}
+
+.news-discription {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    line-height: 2rem;
+    @include tablet{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        
+    }
+    @include extra-phone{
+        font-size: 1.4rem;
+    }
+
+}
+
+// .opened-news-img {
+//     display: flex;
+//     flex-wrap: nowrap;
+//     width: inherit;
+//     height: inherit;
+// }
+
+.__opened-news-img {
+max-width: 100%;
+max-height: 100%;
+height: auto;
+width: auto;
+-o-object-fit: contain;
+object-fit: contain;
+}
+
+.opened-news-title {
+    font-size: 4.8rem;
+    font-family: FuturaPTDemi;
+    color: $color-header-blue-1;
+    line-height: 5rem;
+    padding: 0 0 3rem 0;
+    max-width: 88%;
+    @include tablet{
+        font-size: 3.6rem;
+        max-width: 100%;
+    }
+    @include extra-phone{
+        font-size: 2.4rem;
+        
+    }
+}
+
+.opened-news-date {
+    font-size: 1.6rem;
+    font-family: FuturaPTBook;
+    color: rgba(0, 0, 0, 0.600);
+    // text-shadow: 0px 3px 10px;
+    padding: 0 0 3rem 0;
+    @include extra-phone{
+        font-size: 1.4rem;
+        
+    }
+}
+
+.opened-news-discription {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    line-height: 3rem;
+    max-width: 77%;
+    padding: 3rem 0;
+    @include tablet{
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    @include extra-phone{
+        font-size: 1.6rem;
+        
+    }
+}
+
+.opened-news-review {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    line-height: 3rem;
+    max-width: 77%;
+    padding: 3rem 0;
+    @include tablet{
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    @include extra-phone{
+        font-size: 1.6rem;
+        
+    }
+}
+
+.__opened-news-review {
+    padding: 0 0 3rem 0;
+}
+
+.opened-news-share {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+
+.button-google-plus,
+.button-linkedin,
+.button-twitter {
+    max-height: 4.5rem;
+    max-width: 5rem;
+    margin: 0 0.5rem;
+}
+
+.share-p {
+    font-size: 2rem;
+    font-family: FuturaPTBook;
+    color: rgba(0, 0, 0, 0.600);
+    @include extra-phone{
+        font-size: 1.6rem;
+        
+    }
+}
+
+.__news-img {
+    // @include tablet{
+    // max-width: 238px;
+    // }
+    // @include little-phone{
+    //     max-width: 100%;
+    //     padding-bottom: 20px;
+    //     }
+max-width: 100%;
+max-height: 100%;
+height: auto;
+width: auto;
+-o-object-fit: contain;
+object-fit: contain;
+
+}
+
+// .news-hiden-block-gul-block-a {
+//     display: none;
+   
+//     @include tablet {
+//     display: block;       
+//     width: 2rem;
+//     height: 1.5rem;
+//     // margin:  -5.8% 0 0 90%;
+//     padding: 2.5rem 0 2.5rem 74%;
+//     }
+
+//     @include phone {
+//         padding: 2.5rem 0 2.5rem 66%;
+
+//     }
+
+//     @include big-phone {
+//         padding: 2.5rem 0 2.5rem 63%;
+
+//     }
+
+//     @include little-phone {
+//         padding: 2.5rem 0 2.5rem 60%;
+
+//     }
+
+//     @include small-phone {
+//         padding: 2.5rem 0 2.5rem 55%;
+
+//     }
+
+//     @include extra-phone-big {
+//         padding: 2.5rem 0 2.5rem 57%;
+
+//     }
+//     @include extra-phone {
+//         padding: 1.5rem 0 2.5rem 60%;
+
+//     }
+
+// }

@@ -1,0 +1,104 @@
+// .second-section {
+//     // min-height: 64rem;
+// }
+
+.flex-main-5 {
+    width: 128rem;
+    margin: -5% 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-main-6 {
+    flex: 0 0 50%;
+    height: 64rem;
+    width: 64rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.second-section-paragraph-1 {
+    font-size: 3rem;
+    // padding: 8% 0 0 10%;
+    // width: 100%;
+    max-width: 76%;
+    color: $color-header-drop-black;
+    font-family: FuturaPTBook;
+    position: absolute;
+    top: 7%;
+    left: 9%;
+}
+
+.ssp1 {
+    color: $color-header-blue-2;
+    font-family: FuturaPTDemi;
+}
+
+.flex-main-7 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 64rem;
+    width: 64rem;
+}
+
+.second-section-paragraph-2 {
+    // height: 30rem;
+    font-size: 3rem;
+    padding: 0 0 0 13%;
+    // width: 100%;
+    max-width: 80%;
+    color: $color-background-1;
+    font-family: FuturaPTBook;
+}
+
+.ssp2 {
+    font-family: FuturaPTDemi;
+}
+
+.white-cone {
+    padding: 28% 0% 0% 28%;
+    
+    
+}
+
+.flex-main-8 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32rem;
+    width: 64rem;
+}
+
+.flex-main-9 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32rem;
+    width: 32rem;
+    background-color: $color-header-drop-active;
+}
+
+.flex-main-10 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32rem;
+    width: 32rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center bottom;
+}
+
+.flex-main-11 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 32rem;
+    width: 64rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center bottom;
+}

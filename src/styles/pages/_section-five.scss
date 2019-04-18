@@ -1,0 +1,95 @@
+
+.h1-fifth-section {
+    font-size: 6rem;
+    width: 100%;
+    color: $color-header-drop-black;
+    font-family: FuturaPTDemi;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.fifth-section-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 128rem;
+    margin: 1% 15%;
+}
+
+.fifth-flex-item-big {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fifth-flex-item-medium {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 64rem;
+}
+
+.flex-item-reverse {
+    flex-direction: row-reverse;
+}
+
+.fifth-flex-item-small {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 32rem;
+    width: 32rem;
+    background: $color-background-2;
+}
+
+.backgrocol {
+    background-color: $color-header-drop-active;
+}
+
+.fifth-flex-item-small-row {
+    flex-direction: row;
+}
+
+.fifth-section-paragraph {
+    font-size: 3rem;
+    padding: 7% 0 0 13%;
+    width: 100%;
+    max-width: 84%;
+    color: black;
+    font-family: FuturaPTBook;
+}
+
+.fontcol {
+    color: $color-background-1;
+}
+
+.six-flex-item {
+    text-align: center;
+    width: 100%;
+    margin: 7% 0 0 0;
+}
+
+.fifth-news-url {
+    font-size: 1.8rem;
+    // width: 100%;
+    max-width: 32%;
+    padding: 1.8rem 4rem;
+    text-align: center;
+    border-radius: 0px 15rem 15rem 15rem;
+    background: $color-header-drop-active;
+    color: $color-background-1;
+    font-family: FuturaPTBook;
+}
+
+.fifth-section-date {
+    font-size: 1.6rem;
+    font-family: FuturaPTBook;
+    color: rgba(0, 0, 0, 0.600);
+    // text-shadow: 0px 3px 10px;
+    padding: 7% 0 0 13%;
+}
+
+.col-white {
+    color: $color-background-1;
+    text-shadow: none;
+}

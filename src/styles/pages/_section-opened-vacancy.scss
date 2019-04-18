@@ -1,0 +1,189 @@
+.back-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 0 3rem 0;
+}
+
+.back-button-arrow {
+    max-width: 5rem;
+    max-height: 0.9rem;
+    margin-top: 0.5rem;
+    @include extra-phone-big{
+        max-width: 2rem;
+        max-height: 0.9rem;
+        margin-top: 0.2rem;
+        
+    }
+}
+
+
+.back-button-text {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    @include extra-phone{
+        font-size: 1.4rem;
+    }
+}
+
+.vac-discription-p {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    padding: 3rem 0 3rem 0;
+    @include tablet{
+        font-size: 2.6rem;
+    }
+    @include extra-phone{
+        font-size: 2rem;
+    }
+    
+}
+
+.vac-discrition-li {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    padding: 1rem 0 1rem 5rem;
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include extra-phone{
+        font-size: 1.4rem;
+    }
+}
+
+.vac-send-button {
+    // text-align: center;
+    width: 100%;
+    margin: 6rem 0;
+    @include extra-phone{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+.vac-send-button-url {
+    font-size: 1.8rem;
+    width: 100%;
+    max-width: 32%;
+    min-width: 280px;
+    padding: 1.5rem 5rem;
+    text-align: center;
+    border-radius: 0px 15rem 15rem 15rem;
+    background: $color-header-drop-active;
+    color: $color-background-1;
+    font-family: FuturaPTBook;
+    @include tablet{
+        padding: 1.5rem 3.5rem;
+    }
+    @include extra-phone{
+        font-size: 1.4rem;
+    }
+}
+
+.contact-manager {
+    font-family: FuturaPTBook;
+    font-size: 2.4rem;
+    padding: 3rem 0;
+    @include tablet{
+        font-size: 2rem;
+    }
+    @include extra-phone-big{
+        font-size: 1.6rem;
+    }
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+._split {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.contact-manager-block {
+    background-color: $color-dark-white;
+    max-width: 51.1rem;
+    min-width: 270px;
+    // height: 35%;
+   
+}
+
+.manager-details-name {
+    font-family: FuturaPTBook;
+    font-size: 2.4rem;
+    padding: 5rem 0 0 3rem;
+    @include tablet{
+        font-size: 2rem;
+    }
+    
+}
+
+.manager-details-position {
+    padding: 1rem 0 0 3rem;
+}
+.manager-details-position,
+.__manager-details-contacts {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.600);
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include extra-phone-big{
+        font-size: 1.4rem;
+    }
+}
+
+.__manager-details-contacts {
+    padding: 3rem 0 0 3rem;
+    // @include extra-phone-big{
+    //     padding: 3rem 0 0 2rem;
+    // }
+}
+.__manager-details-contacts_ {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    color: $color-header-blue-1;
+    padding: 3rem 0 0 4rem;
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include small-phone{
+        padding: 3rem 0 0 1rem;
+    }
+    // @include extra-phone-big{
+    //     padding: 3rem 0 0 0rem;
+    // }
+    @include extra-phone-big{
+        font-size: 1.4rem;
+    }
+
+}
+
+.manager-image {
+    @include small-phone{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+}
+
+.mask {
+    padding: 3rem 0 0 3rem;
+    @include small-phone{
+        padding: 30px 0 0 0;
+    }
+}
+
+.manager-details-contacts {
+    padding: 0 0 3rem 0;
+}
+

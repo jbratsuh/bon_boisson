@@ -1,0 +1,297 @@
+
+
+
+.contacts-main-title {
+    font-family: FuturaPTDemi;
+    font-size: 6rem;
+    color: $color-header-blue-2;   
+    padding: 6rem 0 6rem 20rem;
+}
+
+.contacts-sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background-2;
+    min-width: 34rem;
+    max-height: 29rem;
+    min-height: 29rem;
+    flex-wrap: wrap;
+}
+
+.__contacts-sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background-2;
+    padding: 3rem 0 0 3rem;
+    // border: 1px solid black;
+}
+
+.contacts-main-office {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    padding: 0 0 3rem 0;
+}
+
+.contacts-city {
+    font-family: FuturaPTDemi;
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+}
+
+.contacts-street {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding: 0 0 2rem 0;
+}
+
+.contacts-phone-number {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding: 0 0 2rem 0;
+}
+
+.contacts-email {
+    font-family: FuturaPTBold;
+    color: $color-header-blue-2;
+    font-size: 2rem;
+    // padding-top: 4rem;
+    // border-bottom: 0.1rem solid $color-header-blue-2;
+    // display: inline-block;
+    // line-height: 0.85;
+
+}
+
+.__contacts-email {
+    border-bottom: 0.15rem solid $color-header-blue-2;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+.__contacts-middle-section {
+    padding: 2rem 0 0 10rem;
+}
+
+.contacts-middle-section-title {
+    font-family: FuturaPTDemi;
+    font-size: 4.8rem;
+    padding: 0 0 2rem 0;
+}
+
+.contacts-middle-section-information {
+    padding: 0 0 2rem 0;
+}
+
+
+.contacts-middle-section-information-p-top {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.contacts-middle-section-information-p-bottom {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    // color: rgba(0, 0, 0, 0.60);
+    padding: 1.5rem 0 1rem 0;
+    border-bottom: 0.05rem solid rgba(0, 0, 0, 0.60);
+    width: 61.8rem;
+}
+
+.contacts-middle-section-massege-p {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.600);
+    padding: 0 0 2rem 0;
+}
+
+.contacts-middle-section-massege-text-typing-block {
+    border: 0.05rem solid rgba(0, 0, 0, 0.600);
+    width: 61.8rem;
+}
+
+.contacts-middle-section-massege-text-typing {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    max-width: 56.3rem;
+    padding: 2rem 0 10rem 2rem;
+}
+
+.contacts-middle-section-terms {
+    padding: 2rem 0 0 0;
+}
+
+.contacts-middle-section-cross-block {
+    border: 0.2rem solid rgba(0, 0, 0, 0.600);
+    width: 1.9rem;
+    height: 1.9rem;
+}
+
+.contacts-middle-section-cross-left {
+    height: 0.2rem;
+    width: 1.3rem;
+    background-color: $color-header-blue-1;
+    -webkit-transform: rotate(-45deg) translate(-4px, 5px);
+
+}
+
+.contacts-middle-section-cross-right {
+    height: 0.2rem;
+    width: 1.3rem;
+    background-color: $color-header-blue-1;
+    -webkit-transform: rotate(45deg) translate(3.8px, 2.8px);
+
+}
+
+.contacts-middle-section-terms-text {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    padding-left: 3rem;
+}
+
+.__contacts-middle-section-terms-text-blue {
+    color: $color-header-blue-2;
+}
+
+.contacts-middle-send-button-block {
+    padding: 6rem 0;
+}
+
+.contacts-middle-send-button {
+    // text-align: center;
+    width: 100%;
+    
+}
+
+.__contacts-middle-send-button {
+    font-size: 1.8rem;
+    width: 100%;
+    max-width: 32%;
+    padding: 1.5rem 5rem;
+    text-align: center;
+    border-radius: 0px 15rem 15rem 15rem;
+    background: $color-header-drop-active;
+    color: $color-background-1;
+    font-family: FuturaPTBook;
+}
+
+.__contacts-right-sidebar {
+    padding: 4rem 0 0 10rem;
+}
+
+.contacts-right-sidebar-title {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    padding: 0 0 2rem 0;
+}
+
+.contacts-right-sidebar-city {
+    font-family: FuturaPTDemi;
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.contacts-right-sidebar-adress {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding: 0 0 2rem 0;
+}
+
+.contacts-right-sidebar-phone-number {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding: 0 0 1rem 0;
+}
+
+.b-popup {
+    width:100%;
+    min-height:100%;
+    background-color: $pop-up-background;
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:5rem auto 0 auto;
+    width:104.6rem;
+    height: 87.2rem;
+    padding:10px;
+    background-color: $color-background-1;
+    // border-radius:5px;
+    // box-shadow: 0px 0px 10px #000;
+
+    
+}
+
+.b-popup-content {
+    position: relative;
+   
+}
+
+.__b-popup-content {
+    padding-right: 4rem;
+   
+}
+
+.pop-up-text-block {
+    // max-width: 89rem;
+ 
+    padding: 0 0 0 5rem;
+    flex-wrap: nowrap;
+    // overflow: hidden scroll; 
+    width: 100%;
+
+}
+.scroll-block{
+    // width: inherit; 
+	height: 275px; 
+    overflow: auto;   
+    display: block;
+}
+
+.pop-up-title {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    padding: 5rem 0 5rem 5rem;
+    color: $color-header-blue-1;
+}
+
+.pop-up-paragraph-title {
+    font-family: FuturaPTBold;
+    font-size: 2rem;
+    padding: 0 0 3rem 0;
+    max-width: 89rem;
+}
+
+.pop-up-paragraph {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    padding: 0 0 3rem 0;
+    line-height: 3rem;
+    max-width: 89rem;
+}
+
+.hide-pop-up-button {
+    position: absolute;
+    top: 7rem;
+    left: 97.6rem;
+    width: 1.95rem;
+    height: 1.95rem;
+    // background: yellow;
+}
+
+.hide-pop-up-button-cross-left {
+    height: 0.4rem;
+    width: 2.5rem;
+    background-color: $pop-up-close-cross;
+    -webkit-transform: rotate(-45deg) translate(-7px, 3px);
+
+}
+
+.hide-pop-up-button-cross-right {
+    height: 0.4rem;
+    width: 2.5rem;
+    background-color: $pop-up-close-cross;
+    -webkit-transform: rotate(45deg) translate(0.8px, 4.1px);
+
+}

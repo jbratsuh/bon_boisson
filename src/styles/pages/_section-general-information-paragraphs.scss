@@ -1,0 +1,40 @@
+
+.general-information-big-letters-2 {
+    font-family: FuturaPTBold;
+    color: $color-header-drop-active;
+    font-size: 4.8rem;
+    // padding: 3rem 0 0 3rem;
+}
+
+.general-information-drinks {
+    font-family: FuturaPTBook;
+    font-size: 3rem;
+    padding: 3rem 0 3rem 0;
+    position: relative;
+    @include tablet{
+        font-size: 1.6rem;
+    }
+}
+
+.general-information-drinks::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 3.5rem;
+    height: 0.2rem;
+    background: $color-header-drop-black;
+    margin: 2rem 0 0 0;
+}
+
+.general-information-medium-letters {
+    font-family: FuturaPTBold;
+    color: $color-header-drop-active;
+    font-size: 4.3rem;
+    padding: 3rem 0 0 0rem;
+}
+
+// .general-information-paragraphs {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }

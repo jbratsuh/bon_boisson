@@ -1,0 +1,91 @@
+
+.h1-third-section {
+    font-size: 6rem;
+    width: 100%;
+    color: $color-header-drop-black;
+    font-family: FuturaPTDemi;
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.third-section-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    text-align: left;
+    // margin: 0 12%;
+    padding: 0 20rem;
+   
+   
+}
+
+.third-section-element {
+    flex: 0 0 33%;
+    height: 75%;
+    padding: 5% 0 0 10%;
+}
+
+.third-section-span {
+    font-family: FuturaPTBold;
+    color: $color-header-drop-active;
+    font-size: 12rem;
+    @include tablet{
+        font-size: 10rem;
+    }
+    @include little-phone{
+        font-size: 6rem;
+        flex: 0 0 50%;
+    }
+    @include extra-phone-big{
+        font-size: 5rem;
+        flex: 0 0 50%;
+    }
+}
+
+.third-section-p {
+    font-size: 3rem;
+    width: 100%;
+    max-width: 74%;
+    font-family: FuturaPTDemi;
+    color: $color-header-grey;
+    padding: 5% 0 0 0;
+    @include tablet{
+        font-size: 2.6rem;
+    }
+    @include little-phone{
+        font-size: 1.6rem;
+        flex: 0 0 50%;
+        padding-left: 10px;
+    }
+  
+}
+
+.third-section-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0 0 19.5%;
+}
+
+.third-section-discription-2 {
+    font-size: 1.8rem;
+    margin: 0 0 4% 0;
+    // width: 100%;
+    max-width: 87%;
+    color: rgba(0, 0, 0, 0.800);
+    font-family: FuturaPTDemi;
+    line-height: 4rem;
+}
+
+.third-section-about-url {
+    font-size: 1.8rem;
+    margin: 3% 0 3% 0;
+    // width: 100%;
+    max-width: 29%;
+    padding: 2rem 4rem;
+    text-align: center;
+    border-radius: 0px 15rem 15rem 15rem;
+    background: $color-header-drop-active;
+    color: $color-background-1;
+    font-family: FuturaPTBook;
+}

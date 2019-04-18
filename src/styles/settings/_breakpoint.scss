@@ -1,0 +1,196 @@
+// Responsive breakpoints. "Include media" settings.
+$desktop-plus: 1680px;
+$desktop: 1600px;
+$desktop-notebook-plus: 1440px;
+$desktop-notebook: 1400px;
+$desktop-laptop-plus: 1366px;
+$desktop-laptop: 1360px;
+$desktop-little: 1280px;
+$desktop-block-plus: 1152px;
+$desktop-block: 1024px;
+$menu-tablet: 992px;
+$middle-tablet: 900px;
+$small-tablet: 800px;
+$tablet: 768px;
+$portrait-tablet: 767px;
+$phone: 640px;
+$custom-phone: 600px;
+$big-phone: 577px;
+$little-phone: 480px;
+$small-phone: 420px;
+$extra-phone-big: 370px;
+$extra-phone: 320px;
+
+//@mixin menu-tablet {
+//  @media screen and (min-device-width: 640px) and (max-device-width: 1024px)and (-webkit-min-device-pixel-ratio: 1)  {
+//    @content;
+//  }
+//}
+
+@mixin desktop-plus {
+  @media (max-width: #{$desktop-plus}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: #{$desktop}) {
+    @content;
+  }
+}
+@mixin desktop-notebook-plus {
+  @media (max-width: #{$desktop-notebook-plus}) {
+    @content;
+  }
+}
+@mixin desktop-notebook {
+  @media (max-width: #{$desktop-notebook}) {
+    @content;
+  }
+}
+@mixin desktop-laptop-plus {
+  @media (max-width: #{$desktop-laptop-plus}) {
+    @content;
+  }
+}
+@mixin desktop-laptop {
+  @media (max-width: #{$desktop-laptop}) {
+    @content;
+  }
+}
+@mixin desktop-little {
+  @media (max-width: #{$desktop-little}) {
+    @content;
+  }
+}
+@mixin desktop-little-card {
+  @media (max-width: #{$desktop-little}) {
+    @content;
+  }
+}
+@mixin desktop-block-plus {
+  @media (max-width: #{$desktop-block-plus}) {
+    @content;
+  }
+}
+@mixin desktop-block {
+  @media (max-width: #{$desktop-block}) {
+    @content;
+  }
+}
+@mixin menu-tablet {
+  @media (max-width: #{$menu-tablet}) {
+    @content;
+  }
+}
+@mixin middle-tablet {
+  @media (max-width: #{$middle-tablet}) {
+    @content;
+  }
+}
+@mixin small-tablet {
+  @media (max-width: #{$small-tablet}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: #{$tablet}) {
+    @content;
+  }
+}
+@mixin portrait-tablet {
+  @media screen and (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+
+@mixin phone {
+  @media screen and  (max-width: #{$phone}) {
+    @content;
+  }
+}
+@mixin custom-phone {
+  @media screen and  (max-width: #{$custom-phone}) {
+    @content;
+  }
+}
+@mixin big-phone {
+  @media screen and  (max-width: #{$big-phone}) {
+    @content;
+  }
+}
+@mixin little-phone {
+  @media screen and  (max-width: #{$little-phone}) {
+    @content;
+  }
+}
+
+@mixin small-phone {
+  @media (max-width: #{$small-phone}) {
+    @content;
+  }
+}
+@mixin extra-phone-big {
+  @media (max-width: #{$extra-phone-big}) {
+    @content;
+  }
+}
+@mixin extra-phone {
+  @media (max-width: #{$extra-phone}) {
+    @content;
+  }
+}
+
+@mixin input-placeholder{
+  &::-webkit-input-placeholder{
+    @content;
+  }
+  &:-moz-placeholder{
+    @content;
+  }
+  &::-moz-placeholder{
+    @content;
+  }
+  &:-ms-input-placeholder{
+    @content;
+  }
+}
+// Remove hover on touch devices:
+@mixin hover() {
+  .no-touch &:hover,
+  .no-js &:hover,
+  &:focus {
+    @content;
+  }
+}
+@mixin padding-screen {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@mixin padding-cont-block {
+  padding-left: 32px;
+  padding-right: 32px;
+  //@include tablet{
+  //  padding-left: 20px;
+  //  padding-right: 20px;
+  //}
+  //@include small-phone{
+  //  padding-left: 10px;
+  //  padding-right: 10px;
+  //}
+}
+@mixin padding-side-block {
+  padding-left: 20px;
+  padding-right: 20px;
+  //@include tablet{
+  //  padding-left: 20px;
+  //  padding-right: 20px;
+  //}
+  //@include small-phone{
+  //  padding-left: 10px;
+  //  padding-right: 10px;
+  //}
+}
+
+

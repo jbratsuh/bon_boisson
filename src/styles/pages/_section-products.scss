@@ -1,0 +1,211 @@
+
+
+.products-main-title {
+    font-family: FuturaPTDemi;
+    font-size: 6rem;
+    color: $color-header-blue-2;   
+    padding: 6rem 0 6rem 15rem;
+    @include desktop-plus{
+        padding: 6rem 0 6rem 10rem;
+    }
+    @include desktop-notebook{
+        padding: 6rem 0 6rem 5rem;
+    }
+    @include desktop-little{
+        padding: 6rem 0 6rem 2rem;
+    }
+
+    @include tablet{
+        padding: 4.5rem 0 4.5rem 4.5rem;
+        font-size: 5rem;
+    }
+    
+    @include extra-phone{
+        padding: 1.5rem 0 1.5rem 0;
+        font-size: 3rem;
+    }
+}
+
+.products-sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background-2;
+    min-width: 32rem;
+    max-height: 29rem;
+    min-height: 29rem;
+    flex-wrap: wrap;
+    @include tablet{
+        display: none;
+
+    }
+}
+
+.__products-sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background-2;
+    min-width: 32rem;
+    max-height: 38rem;
+    min-height: 61rem;
+    // border: 1px solid black;
+}
+
+.products-links {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    max-width: 26.4rem;
+    padding: 3rem 0 0 3rem;
+}
+
+.padding-products-element {
+    padding-left: 5rem;
+    font-family: FuturaPTBold;
+    
+}
+
+.products-main-block {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 5rem 10rem;
+    max-width: 138rem;
+    flex-wrap: nowrap;
+    @include desktop-notebook-plus{
+        padding: 0 0 0 5rem;
+        max-width: 68%;
+    }
+    @include desktop-little{
+        padding: 0 0 0 2rem;
+    }
+    @include desktop-block-plus{
+        // padding: 0 0 0 2rem;
+        max-width: 71%;
+    }    
+    @include desktop-block{
+        // padding: 0 0 0 2rem;
+        max-width: 66%;
+    }    
+    @include menu-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        // max-width: 650px;
+    }
+    @include middle-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        max-width: 60%;
+    }
+    @include small-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        max-width: 58%;
+    }
+    @include tablet{
+        padding: 0 4.5rem 0 4.5rem;
+        max-width: 100%;
+    }
+
+    @include little-phone{
+        padding: 0 4.5rem 0 4.5rem;
+        max-width: 480px;
+    }
+
+    @include extra-phone{
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.products-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 5rem;
+    @include extra-phone{
+        // // padding: 0 4.5rem 0 4.5rem;
+        // max-width: 480px;
+        flex-direction: column;
+    }
+
+}
+
+.products-main {
+    padding-left: 5rem;
+    // max-width: 51%;
+    @include desktop-little{
+        padding: 0 0 0 2rem;
+    }
+}
+
+.products-title {
+    font-size: 6rem;
+    font-family: FuturaPTBold;
+    color: $color-header-blue-1;
+    line-height: 6rem;
+    padding: 3rem 0;
+    max-width: 71rem;
+    @include desktop-block-plus{
+        font-size: 5rem;
+    }
+    @include desktop-block{
+        font-size: 4rem;
+        // max-width: 60rem;
+    }
+    @include middle-tablet{
+        padding: 1rem 0;
+    }
+    @include small-tablet{
+        font-size: 3rem;
+    }
+    @include tablet{
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    @include little-phone{
+        font-size: 3rem;
+        // line-height: 4rem;
+    }
+    @include small-phone{
+        font-size: 2.5rem;
+        // line-height: 4rem;
+    }
+    @include extra-phone-big{
+        font-size: 2rem;
+        // line-height: 4rem;
+    }
+    @include extra-phone{
+        font-size: 2.4rem;
+        // line-height: 4rem;
+        padding: 2rem 0;
+    }
+  
+}
+
+.products-discription {
+    font-size: 2rem;
+    font-family: FuturaPTBook;
+    line-height: 3rem;
+    padding-top: 3rem;
+    max-width: 60rem;
+    @include middle-tablet{
+        padding-top: 1rem;
+    }
+    @include tablet{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    @include extra-phone{
+        display: none;
+    }
+}
+
+.products-img {
+    max-width: 38rem;
+    // width: 45rem;
+    flex: 0 0 30%;
+  
+}
+.__products-img {
+     max-width: 100%;
+     max-height: 100%;
+     height: auto;
+     width: auto;
+     -o-object-fit: contain;
+     object-fit: contain;
+}

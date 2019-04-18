@@ -1,0 +1,494 @@
+.city-vacancies-site-width {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.city-vacancies-split {
+    display: flex;
+    flex-direction: row; 
+    padding: 0 10rem 0 15rem;
+    flex-wrap: nowrap;
+    @include desktop-plus{
+        padding: 0 10rem 0 10rem;
+    }
+    @include desktop-notebook{
+        padding: 0 5rem 0 5rem;
+    }
+    @include desktop-little{
+        padding: 0 2rem 0 2rem;
+    }
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}
+
+.city-vacancies-sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background-2;
+    min-width: 32rem;
+    max-height: 29rem;
+    min-height: 29rem;
+    flex-wrap: wrap;
+
+    @include small-tablet{
+        display: none;
+
+    }
+}
+.city-vacancies-general-information-paragraphs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+     
+
+}
+.city-vacancies-title {
+    font-family: FuturaPTDemi;
+    font-size: 6rem;
+    color: $color-header-blue-2;   
+    padding: 6rem 0 6rem 15rem;
+    @include desktop-plus{
+        padding: 6rem 0 6rem 10rem;
+    }
+    @include desktop-notebook{
+        padding: 6rem 0 6rem 5rem;
+    }
+    @include desktop-little{
+        padding: 6rem 0 6rem 2rem;
+    }
+
+    @include tablet{
+        padding: 4.5rem 0 4.5rem 4.5rem;
+        font-size: 5rem;
+    }
+    
+    @include extra-phone{
+        padding: 1.5rem 0 1.5rem 0;
+        font-size: 3rem;
+    }
+
+}
+
+.city-vacancies-information {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 10rem;
+    max-width: 138rem;
+    flex-wrap: wrap;
+    @include desktop-notebook-plus{
+        padding: 0 0 0 5rem;
+        max-width: 68%;
+    }
+    @include desktop-little{
+        padding: 0 0 0 2rem;
+    }
+    @include desktop-block-plus{
+        // padding: 0 0 0 2rem;
+        max-width: 71%;
+    }    
+    @include desktop-block{
+        // padding: 0 0 0 2rem;
+        max-width: 67%;
+    }    
+    @include menu-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        // max-width: 650px;
+    }
+    @include middle-tablet{
+        // padding: 0 4.5rem 0 4.5rem;
+        max-width: 64%;
+    }
+    @include tablet{
+        padding: 0 4.5rem 0 4.5rem;
+        max-width: 100%;
+    }
+
+    @include extra-phone{
+        padding: 0;
+    }
+}
+
+.city-vacancies-gul-block {
+    // display: none;
+    // position: absolute;
+    width: 2rem;
+    height: 1.5rem;
+    // background-color: pink;
+    left: 28.2rem;
+    top: 5.3rem;
+    // background-color: red;
+    margin: 2rem 0 0 3rem;
+
+   
+
+    @include tablet {
+        margin: 12px 0 0 20px;
+        
+    }
+    @include phone {
+        margin: 12px 0 0 20px;
+        
+    }
+
+    // @include big-phone {
+    //     margin: 2.4% 0 0 2%;
+        
+    // }
+
+    @include extra-phone {
+        margin: 7px 0 0 10px;
+        
+    }
+
+}
+
+.city-vacancies-gul-block-left {
+    background-color: black;
+    width: 1.5rem;
+    height: 0.3rem;
+    // border-radius: 0.3rem  0rem 0rem 0.3rem;
+    -webkit-transform: rotate(47deg) translate(2px, 7px);
+    @include tablet {
+        width: 1.2rem;
+        height: 0.3rem;
+        -webkit-transform: rotate(47deg) translate(4px, 7px);
+    }
+    @include tablet {
+        width: 0.8rem;
+        height: 0.15rem;
+        -webkit-transform: rotate(47deg) translate(4px, 6px);
+    }
+}
+
+.city-vacancies-gul-block-right {
+    background-color: black;
+    width: 1.5rem;
+    height: 0.3rem;
+    // border-radius: 0rem  0.3rem 0.3rem 0rem;
+    -webkit-transform: rotate(-47deg) translate(1px, 6px);
+    @include tablet {
+        width: 1.2rem;
+        height: 0.3rem;
+        -webkit-transform: rotate(-47deg) translate(-2px, 5px);
+        
+    }
+    @include tablet {
+        width: 0.8rem;
+        height: 0.15rem;
+        -webkit-transform: rotate(-47deg) translate(-2px, 5px);
+        
+    }
+}
+
+
+
+// .arrow{
+//     width: 0px;
+//     height: 0px;
+//     border: 10px solid transparent;
+//     border-top-color: black;
+//     margin-left: 1.5rem;
+//     padding: 0;
+//     float: left;
+//   }
+//   .arrow:before{
+//     content:'';
+//     width: 0px;
+//     height: 0px;
+//     border: 10px solid transparent;
+//     border-top-color: white;
+//     display: inline-block;
+//     -webkit-transform: translate(-10px, -14px);
+//   }
+
+//   .arrow.down{
+//     transform: rotate(0deg) translate(0px, 25px);
+//     -webkit-transform: rotate(0deg) translate(0px, 25px);
+//     -moz-transform: rotate(0deg) translate(0px, 25px);
+//     -o-transform: rotate(0deg) translate(0px, 25px);
+//     -ms-transform: rotate(0deg) translate(0px, 25px);
+//   }
+
+.vacancy-hiden-block {
+    display: none;
+   
+    @include tablet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: $color-background-2;
+        margin: 0  4.5rem 5rem 4.5rem;
+        height: 7.1rem;
+    }
+
+    @include extra-phone{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: $color-background-2;
+        margin: 0  0 50px 0;
+        height: 5rem;
+        width: 100%;
+    }
+}
+
+
+.vacancy-hiden-block-gul-block-a {
+    display: none;
+   
+    @include tablet {
+    display: block;       
+    width: 2rem;
+    height: 1.5rem;
+    flex: 0 0 10%;
+    // margin:  -5.8% 0 0 90%;
+    padding: 2.5rem 0 2.5rem 0;
+    }
+
+    @include phone {
+        padding: 2.5rem 0 2.5rem 0;
+
+    }
+
+    @include big-phone {
+        padding: 2.5rem 0 2.5rem 0;
+
+    }
+
+    @include little-phone {
+        padding: 2.5rem 0 2.5rem 0;
+
+    }
+
+    @include small-phone {
+        padding: 2.5rem 0 2.5rem 0;
+
+    }
+
+    @include extra-phone-big {
+        padding: 2.5rem 0 2.5rem 0;
+
+    }
+    @include extra-phone {
+        padding: 1.5rem 0 2.5rem 0;
+
+    }
+
+}
+
+.vacancy-hiden-block-gul-block-left {
+   
+    @include tablet {
+        width: 1.2rem;
+        height: 0.3rem;
+        -webkit-transform: rotate(47deg) translate(4px, 7px);
+        background-color: black;
+    }
+
+    @include extra-phone {
+        width: 0.8rem;
+        height: 0.15rem;
+        -webkit-transform: rotate(47deg) translate(4px, 7px);
+        background-color: black;
+    }
+}
+
+.vacancy-hiden-block-gul-block-right {
+
+    @include tablet {
+        width: 1.2rem;
+        height: 0.3rem;
+        -webkit-transform: rotate(-47deg) translate(-1px, 6px);
+        background-color: black;
+    }
+
+    
+    @include extra-phone {
+        width: 0.8rem;
+        height: 0.15rem;
+        -webkit-transform: rotate(-47deg) translate(-3px, 5px);
+        background-color: black;
+    }
+    
+}
+
+
+
+
+.vacancy-hiden-block-p {
+    font-family: FuturaPTDemi;
+    font-size: 2.6rem;
+    padding: 2rem 0 2rem 3.5rem;
+    flex: 0 0 90%;
+
+    @include extra-phone {
+        font-size: 1.6rem;
+        padding: 1.5rem 0 2rem 1.5rem;
+    }
+}
+
+
+.cities-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $color-background-2;
+    max-width: 96rem;
+    margin-top: 5rem;
+
+    @include tablet{
+        margin-top: 0.5rem;
+    }
+
+    @include extra-phone{
+        max-width: 280px;
+        max-height: 250px;
+        overflow: hidden scroll;
+        width: 100%;
+    }
+    
+}
+
+.__cities-flex {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    flex: 0 0 25%;
+    padding:  3rem 3rem 3rem 7rem;
+    min-width: 20rem;
+    @include desktop-little{
+        padding: 3rem 3rem 3rem 3rem;
+    }
+    @include desktop-block-plus{
+        padding: 2rem;
+        min-width: 14rem;
+    }
+    @include middle-tablet{
+        padding: 3rem;
+        min-width: 16rem;
+    }
+
+    @include extra-phone{
+        font-size: 1.6rem;
+        padding:  1.7rem 2rem 1.7rem 2rem;
+    }
+
+}
+
+.vac-article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.__vac-article {
+    font-family: FuturaPTDemi;
+    font-size: 2.4rem;
+    // text-shadow: 0px 2px 7px;
+    padding-top: 2rem;
+    max-width: 96rem;
+    line-height: 3rem;
+    @include desktop-laptop-plus{
+        max-width: 96%;
+        // font-size: 2rem;
+    }
+    @include tablet{
+        max-width: 100%;
+        font-size: 2rem;
+    }
+
+    @include extra-phone{
+        font-size: 1.6rem;
+    }
+}
+
+.contacts-blue-underline {
+    color: $color-header-blue-2;
+    text-decoration: underline;
+  
+}
+
+.vac-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5rem 0;
+    @include tablet{
+        padding: 2rem 0;
+    }
+}
+
+.vac-item-split {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1rem 0;
+}
+
+
+
+.vac-city {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.600);
+    padding: 0 0 0 1rem;
+    @include tablet{
+        font-size: 1.6rem;
+    }
+    @include extra-phone{
+        font-size: 1.4rem;
+    }
+}
+
+.vacancy {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    color: $color-header-blue-1;
+    padding: 1rem 0;
+    @include tablet{
+        font-size: 2.6rem;
+    }
+    @include extra-phone{
+        font-size: 2rem;
+    }
+}
+
+.vacancy-discription {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    color: $color-header-drop-black;
+    max-width: 79%;
+    padding: 1rem 0;
+    line-height: 3rem;
+    @include desktop-notebook-plus{
+        max-width: 96%;
+    }
+    @include tablet{
+        max-width: 100%;
+        font-size: 1.6rem;
+    }
+
+    @include extra-phone{
+        max-width: 100%;
+        font-size: 1.4rem;
+    }
+
+}
+
+.city-vacancies-general-information-big-letters-2 {
+    font-family: FuturaPTBold;
+    color: $color-header-drop-active;
+    font-size: 4.8rem;
+    // padding: 3rem 0 0 3rem;
+    @include tablet{
+        font-size: 3.6rem;
+    }
+    @include extra-phone{
+        font-family: FuturaPTDemi;
+        font-size: 2.4rem;
+    }
+}

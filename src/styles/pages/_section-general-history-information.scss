@@ -1,0 +1,121 @@
+
+
+
+.general-history-information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+
+}
+
+.padding-about-company-element {
+    padding-left: 5rem;
+    font-family: FuturaPTBold;
+    
+}
+
+.main-history-article-block {
+    display: flex;
+    flex-direction: row;
+   
+    // height: 29rem;
+    // width: 108.7rem;
+    margin: 7% 0;
+}
+.main-history-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: $color-header-blue-2;
+    max-height: 14.5rem;
+    max-width: 108.7rem;
+    margin: 10% 0;
+}
+.main-history-article-block{ 
+    &:nth-of-type(2n+1){
+    
+    .history-article-split{
+        flex-direction: row;
+    }
+
+}
+    &:nth-of-type(2n){
+    
+        .history-article-split{
+            flex-direction: row-reverse;
+        }
+
+    }
+}
+
+
+.history-article-split {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: $color-background-1;
+   
+}
+
+
+.history-article-image {
+    color: $color-background-1;
+    // max-width: 30rem;
+    padding: 0 2rem;
+    
+
+}
+
+.history-year {
+    max-width: 29rem;
+    text-align: center;
+}
+
+
+.history-article-year-p {
+    font-family: FuturaPTBook;
+    font-size: 9.5rem;
+    color: $color-background-1;    
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+   
+} 
+
+.__history-article-image {
+ 
+    position: relative; 
+    top: -55%;
+    // max-width: 100%;
+    // max-height: 100%;
+    // height: auto;
+    // width: auto;
+    // -o-object-fit: contain;
+    // object-fit: contain;
+}
+
+
+
+.history-article-discription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.history-article-discription-p {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    color: $color-background-1;
+    max-width: 91%;
+    // padding-right: 20px;
+    @include desktop-plus{
+        max-width: 98%;
+    }
+
+}
+
+
+.general-information-paragraphs-history {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

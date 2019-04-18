@@ -1,0 +1,231 @@
+.opened-products-main-block {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 5rem 10rem;
+    max-width: 138rem;
+    flex-wrap: wrap;
+}
+
+.products-img-big {
+    padding-left: 8rem;
+}
+
+.opened-products-main {
+    // padding-left: 5rem;
+    // max-width: 51%;
+}
+
+.opened-products-discription {
+    font-size: 2rem;
+    font-family: FuturaPTBook;
+    line-height: 3rem;
+    padding-top: 3rem;
+    max-width: 71rem;
+}
+
+.opened-products-title {
+    font-size: 4.8rem;
+    font-family: FuturaPTDemi;
+    color: $color-header-blue-1;
+    line-height: 6rem;
+    padding: 3rem 0;
+    max-width: 71rem;
+  
+}
+
+.opened-products-second-block {
+    padding: 6rem 0 0 0;
+    max-height: 22rem;
+}
+
+.quantity-block {
+    padding-left: 7rem;
+}
+
+.quantity {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    color: $color-light-grey;
+}
+
+.half-l-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    color: $color-light-grey;
+}
+
+.two-l-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTDemi;
+    color: black;
+}
+
+.round-sighns {
+    padding-right: 3rem;
+}
+
+.bottles-block {
+    padding-top: 1rem;
+//    text-align: center;
+}
+
+.__half-l {
+    max-height: 6.6rem;
+    max-width: 2.1rem;
+}
+
+.half-l {
+    padding: 3rem 0 0 0;
+}
+
+.__two-l {
+    max-height: 9.6rem;
+    max-width: 3rem;
+}
+
+.two-l {
+    padding: 0 0 0 2rem;
+}
+
+.half-l-p,
+.two-l-p {
+    padding-top: 1rem;
+}
+
+.two-l-p {
+    padding-left: 2.6rem;
+}
+
+.join-us-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    color: $color-light-grey;
+}
+
+.join-us-web-site {
+    font-family: FuturaPTDemi;
+    color: $color-header-blue-2;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.__join-us-web-site {
+    border-bottom: 0.15rem solid $color-header-blue-2;
+    display: inline-block;
+    line-height: 0.85;
+}
+
+.__facebook-icon {
+    max-width: 2.3rem;
+    max-height: 2.4rem;
+}
+
+.__instagram-icon {
+    max-width: 2.3rem;
+    max-height: 2.4rem;
+}
+
+.__youtube-play-button-icon {
+    max-width: 3rem;
+    max-height: 2.3rem;
+}
+
+.facebook-icon {
+    padding: 2.6rem 0 0 4rem;
+}
+
+.instagram-icon {
+    padding: 2.6rem 0 0 2rem;
+}
+
+.youtube-play-button-icon {
+    padding: 2.6rem 0 0 2rem;
+}
+
+.choose-taste-block {
+    padding: 7rem 0 0 0;
+}
+
+.taste-img {
+    padding: 0 4rem;
+}
+
+.taste-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+.taste-button-arrow {
+    transform: rotate(180deg);
+    padding: 13rem 0 0 0;
+}
+
+.opened-products-last-block-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    color: rgba(0, 0, 0, 0.800);
+    padding-top: 6rem;
+    max-width: 36rem;
+    line-height: 3rem;
+}
+
+.__half-l-black {
+    max-height: 6.5rem;
+    max-width: 2.2rem;
+}
+
+.half-l-black {
+    padding: 3rem 0 0 0;
+}
+
+.__one-l-black {
+    max-height: 8.4rem;
+    max-width: 2.6rem;
+}
+
+.one-l-black {
+    padding: 1.2rem 0 0 2rem;
+}
+
+.__two-l-black {
+    max-height: 9.6rem;
+    max-width: 3rem;
+}
+
+.two-l-black {
+    padding: 0 0 0 2rem;
+}
+
+.half-l-black-p,
+.one-l-black-p,
+.two-l-black-p {
+    padding-top: 1rem;
+}
+
+.one-l-black-p {
+    padding-left: 2.3rem;
+}
+
+.two-l-black-p {
+    padding-left: 2.6rem;
+}
+
+.half-l-black-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    color: $color-light-grey;
+}
+
+.one-l-black-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTDemi;
+    color: black;
+}
+
+.two-l-black-p {
+    font-size: 1.8rem;
+    font-family: FuturaPTBook;
+    color: $color-light-grey;
+}

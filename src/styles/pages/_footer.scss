@@ -1,0 +1,35 @@
+.bb-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: FuturaPTBook;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 15rem 20px;
+    @include tablet {
+        font-size: 1.6rem;
+    }
+    @include extra-phone {
+        font-size: 1.4rem;
+    }
+
+}
+
+.__bb-footer {
+    // text-align: center;
+    justify-self: center;
+    @include little-phone {
+        max-width: 280px;
+    }
+    
+}
+
+.s-footer {
+    color: $color-header-blue-2;
+
+}

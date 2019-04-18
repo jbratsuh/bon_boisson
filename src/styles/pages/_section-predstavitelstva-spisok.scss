@@ -1,0 +1,212 @@
+
+.predstavitelstva-spisok-title {
+    font-family: FuturaPTDemi;
+    font-size: 6rem;
+    color: $color-header-blue-2;   
+    padding: 6rem 0 6rem 20rem;
+    // @include desktop-plus{
+    //     padding: 6rem 0 6rem 10rem;
+    // }
+    // @include desktop-notebook{
+    //     padding: 6rem 0 6rem 5rem;
+    // }
+    @include desktop-little{
+        padding: 6rem 0 6rem 14rem;
+    }
+    @include desktop-block-plus{
+        padding: 6rem 0 6rem 10rem;
+    }
+    @include desktop-block{
+        padding: 8rem 0 6rem 5rem;
+    }
+
+    @include tablet{
+        padding: 4.5rem 0 4.5rem 4.5rem;
+        font-size: 5rem;
+    }
+    
+   
+    @include little-phone{
+        font-size: 3rem;
+    }
+    @include extra-phone{
+        padding: 1.5rem 0 1.5rem 0;
+        
+    }
+}
+
+.predstavitelstva-spisok-map-list-main {
+    padding: 0 0 0 20rem;
+    @include desktop-little{
+        padding: 0 0 0 14rem;
+    }
+    @include desktop-block-plus{
+        padding: 0 0 0 10rem;
+    }
+    @include desktop-block{
+        padding: 0 0 0 5rem;
+    }
+    @include extra-phone{
+        padding: 1.5rem 0 1.5rem 0;
+        
+    }
+
+}
+
+.__predstavitelstva-spisok-map-icon {
+    width: 2.9rem;
+    height: 2.9rem;
+    @include tablet{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    
+}
+
+.predstavitelstva-spisok-map-p {
+    font-family: FuturaPTBook;
+    font-size: 2.4rem;
+    padding: 0.3rem 0 0 1rem;
+    @include tablet{
+        font-size: 2rem;
+    }
+}
+
+.predstavitelstva-spisok-list-main {
+    padding: 0 0 0 6rem;
+}
+
+.__predstavitelstva-spisok-list-icon {
+    width: 2.2rem;
+    height: 2.4rem;
+    @include tablet{
+        width: 1.4rem;
+        height: 1.6rem;
+    }
+    
+}
+
+.predstavitelstva-spisok-list-p {
+    font-family: FuturaPTDemi;
+    font-size: 2.4rem;
+    padding: 0.3rem 0 0 1rem;
+    @include tablet{
+        font-size: 2rem;
+    }
+}
+
+.predstavitelstva-spisok-adress-list-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 80px 0 0 200px;
+    width: 100%;
+    // max-width: 1550px;
+    @include desktop-little{
+        margin: 80px 0 0 14rem;
+    }
+    @include desktop-block-plus{
+        margin: 80px 0 0 10rem;
+    }
+    @include desktop-block{
+        margin: 80px 0 0 5rem;
+    }
+    @include small-tablet{
+        margin: 50px 0 0 5rem;
+    }
+    @include extra-phone{
+        margin: 1.5rem 0 1.5rem 0;
+        
+    }
+
+}
+
+.predstavitelstva-spisok-adress-list-city {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    padding-top: 3rem;
+    @include tablet{
+        font-size: 2.6rem;
+    }
+    
+}
+
+.predstavitelstva-spisok-adress-list-street {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding-top: 3rem
+}
+
+.predstavitelstva-spisok-adress-list-phone-number {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.predstavitelstva-spisok-adress-list-street-under-line {
+    border-bottom: 0.05rem solid rgba(0, 0, 0, 0.60);
+    width: 6rem;
+    padding-top: 3rem;
+}
+
+.predstavitelstva-spisok-adress-list-col-1 {
+    padding: 0 150px 0 0;
+    @include desktop-notebook-plus{
+        padding: 0 125px 0 0;
+    }
+    @include desktop-notebook{
+        padding: 0 100px 0 0;
+    }
+    @include desktop-little{
+        padding: 0 75px 0 0;
+    }
+    @include desktop-block-plus{
+        padding: 0 50px 0 0px;
+    }
+    @include small-tablet{
+        padding: 0 70px 0 0px;
+    }
+    @include custom-phone{
+        padding: 0 35px 0 0px;
+    }
+    @include little-phone{
+        padding: 0 70px 0 0px;
+    }
+
+}
+
+.predstavitelstva-spisok-adress-list-col-2,
+.predstavitelstva-spisok-adress-list-col-3 {
+    padding: 0 150px 0 150px;
+    @include desktop-notebook-plus{
+        padding: 0 125px 0 125px;
+    }
+    @include desktop-notebook{
+        padding: 0 100px 0 100px;
+    }
+    @include desktop-little{
+        padding: 0 75px 0 75px;
+    }
+    @include desktop-block-plus{
+        padding: 0 50px 0 50px;
+    }
+    
+}
+
+.predstavitelstva-spisok-adress-list-col-2 {
+    @include small-tablet{
+        padding: 0 70px 0 70px;
+    }
+    @include custom-phone{
+        padding: 0 35px 0 35px;
+    }
+    @include little-phone{
+        padding: 0 70px 0 0px;
+    }
+}
+
+.predstavitelstva-spisok-adress-list-col-3 {
+    @include small-tablet{
+        padding: 0 70px 0 0px;
+    }
+}

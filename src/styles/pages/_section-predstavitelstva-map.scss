@@ -1,0 +1,120 @@
+
+.predstavitelstva-map-main {
+    padding: 3rem 0 0 0;
+}
+
+.predstavitelstva-map-main-img {
+    position: relative;
+    width: 100%;
+}
+
+.__predstavitelstva-map-drop-main-1 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 59rem;
+    left: 14.2rem;
+}
+
+.__predstavitelstva-map-drop-main-2 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 42rem;
+    left: 92.1rem;
+}
+
+.__predstavitelstva-map-drop-main-3 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 43.8rem;
+    left: 175.6rem;
+}
+
+.__predstavitelstva-map-drop-main-4 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 54.8rem;
+    left: 146.3rem;
+}
+
+.__predstavitelstva-map-drop-main-5 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 95.5rem;
+    left: 82.2rem;
+}
+
+.__predstavitelstva-map-drop-main-6 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 83.5rem;
+    left: 106.4rem;
+}
+
+.__predstavitelstva-map-drop-main-7 {
+    position: absolute;
+    opacity: 1;
+    width: 6.6rem;
+    height: 6.6rem;
+    top: 99rem;
+    left: 126rem;
+}
+
+.predstavitelstva-map-adress-main {
+    position: absolute;
+    top: 71rem;
+    left: 143rem;
+    
+}
+
+.predstavitelstva-map-adress-main-p {
+    width: 32rem;
+    height: 17.2rem;
+    background-color: $color-header-blue-1;
+}
+
+.predstavitelstva-map-adress-list-city {
+    font-family: FuturaPTDemi;
+    font-size: 2rem;
+    padding: 3rem 0 0 3rem;
+    color: $color-background-1;
+    
+}
+
+.predstavitelstva-map-adress-list-street {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding: 1rem 0 0 3rem;
+    color: $color-background-1;
+}
+
+.predstavitelstva-map-adress-list-phone-number {
+    font-family: FuturaPTBook;
+    font-size: 2rem;
+    padding: 3rem 0 0 3rem;
+    color: $color-background-1;
+}
+
+.triangle-map {
+    border: 25px solid transparent;
+    border-top: 20px solid $color-header-blue-1;
+    display: block;
+    width: 0;
+    height: 0;
+   }
+  
+.triangle-map-padding {
+    padding-left: 13rem;
+   }
+

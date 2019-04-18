@@ -1,0 +1,42 @@
+.phylosophy-main-block {
+    margin-left: 6rem;
+    // position: absolute;
+    max-width: 112.7rem;
+}
+
+.phylosophy-column {
+    max-width: 37.5rem;
+}
+
+.phylosophy-column-big {
+    max-width: 75rem;
+}
+
+.bgcdw {
+    background-color: $color-dark-white;
+}
+
+.phylosophy-demi {
+    font-family: FuturaPTDemi;
+    font-size: 3rem;
+    padding: 3rem 0 0 3rem;
+}
+
+.phylosophy-book {
+    font-family: FuturaPTBook;
+    font-size: 1.8rem;
+    padding: 3rem 0 0 3rem;
+    line-height: 2.5rem;
+    color: rgba(0, 0, 0, 0.800);
+    max-width: 90%;
+}
+
+
+.bgcb {
+    background-color: $color-background-blue;
+}
+
+.color-background-1 {
+    color: $color-background-1;
+   
+}
